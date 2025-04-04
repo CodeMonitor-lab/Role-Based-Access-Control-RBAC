@@ -1,16 +1,18 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import { NavLink } from 'react-router-dom'
+import { BrowserRouter as Router, Routes,Route } from 'react-router-dom'
+import {Home} from './pages/index.js'
+import AppRoutes from './Routes/AppRoutes.jsx'
+import AuthProvider from './context/AuthContext.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <> 
-      <h1>App</h1>
-      <p>Roll based routing</p>
+    <>
+    <AppRoutes/>
     </>
-  )}
+  )
+}
 
 export default App

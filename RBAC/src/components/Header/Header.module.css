@@ -1,0 +1,25 @@
+.Header_container{
+    width: 100%;
+}
+.Navbar_links{
+    background: navy;
+    height: 6vh;
+    display: flex;
+}
+.links_list{
+    text-decoration:underline;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 2rem;
+}
+.links_list li{
+    list-style: none;
+    color:#fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size:1rem ;
+}
+.links_list li:hover{
+    color:moccasin;
+}

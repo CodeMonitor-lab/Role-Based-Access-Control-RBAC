@@ -1,0 +1,40 @@
+.AdminLogin_Container{
+    margin-top: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Login_Section{
+    background:darkkhaki;
+    padding: 1.5rem;
+    width: 30em;
+    border-radius: 1rem;
+}
+.Login_form{
+    padding-top: 2rem;
+}
+.heading{
+    color:darkslategrey;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.Login_form input{
+    width: 100%;
+    margin-bottom: 0.5rem;
+    display: flex;
+    font-size: 1.3rem;
+    padding: 0.4rem;
+    outline: none;
+    font-family: sans-serif;
+}
+.Login_form .LoginBtn{
+    /* padding: 0.5rem 2rem; */
+    margin-top: 0.8rem;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
